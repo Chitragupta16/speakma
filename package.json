@@ -1,0 +1,29 @@
+{
+  "name": "speakma",
+  "version": "1.0.0",
+  "description": "WebRTC P2P Video Calling Application for LAN",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "webrtc",
+    "p2p",
+    "video-call",
+    "websocket",
+    "lan"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
